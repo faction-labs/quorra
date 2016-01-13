@@ -1,0 +1,37 @@
+body {
+  background-color: #efefef;
+}
+.hidden.menu {
+  display: none;
+}
+.pusher {
+}
+.app-content {
+    padding-left: 210px;
+    min-height: 500px;
+}
+a, .pointer {
+    cursor: pointer;
+}
+.login, .signup {
+    margin-top: 30px;
+}
+.notfound {
+    min-height: 500px;
+}
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+.ui.dropdown.usermenu {
+    margin-right: 20px;
+}
+.logo-text {
+    font-size: 16pt;
+    vertical-align: middle;
+}
+@media only screen and (max-width: 700px) {
+  .notfound {
+    min-height: 100px;
+  }
+}

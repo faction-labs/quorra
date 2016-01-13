@@ -1,0 +1,3 @@
+*.swp
+build/
+public/node_modules

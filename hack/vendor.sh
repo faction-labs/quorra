@@ -14,3 +14,5 @@ clone git github.com/golang/protobuf master
 clone git github.com/gorilla/mux master
 clone git github.com/gorilla/securecookie master
 clone git github.com/hailocab/go-hostpool master
+clone git go.googlesource.com/crypto master
+clone git gopkg.in/fatih/pool.v2 master

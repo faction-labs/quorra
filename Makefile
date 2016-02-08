@@ -5,10 +5,11 @@ COMMIT=`git rev-parse --short HEAD`
 APP?=quorra
 REPO?=factionlabs/$(APP)
 TAG?=latest
-export GO15VENDOREXPERIMENT=1
 MEDIA_SRCS=$(shell find public/ -type f \
 	-not -path "public/dist/*" \
 	-not -path "public/node_modules/*")
+
+export GOPATH:=$(PWD)/vendor:$(GOPATH)
 
 all: media build image
 
